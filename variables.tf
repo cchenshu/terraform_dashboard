@@ -13,12 +13,6 @@ variable "dashboard_name" {
   default = "Monitoring_Dashboard"
 }
 
-variable "input_rg_name" {
-  description = "Log analytics workspace resource group name"
-  type        = string
-  default = "Log_analytics_workspace"
-}
-
 variable "resource_id" {
   description = "Log analytics workspace resource ID."
   type        = string
