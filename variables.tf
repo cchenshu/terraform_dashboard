@@ -22,5 +22,5 @@ variable "input_rg_name" {
 variable "resource_id" {
   description = "Log analytics workspace resource ID."
   type        = string
-  default = "/subscriptions/xxxx/resourcegroups/psr-demo/providers/microsoft.operationalinsights/workspaces/loganalytics-psrdemo"
+  default = "/subscriptions/c022430e-7e85-46f0-898b-57c4edf3acc5/resourcegroups/psr-demo/providers/microsoft.operationalinsights/workspaces/loganalytics-psrdemo"
 }

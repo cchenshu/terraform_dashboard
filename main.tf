@@ -54,14 +54,14 @@ resource "azurerm_dashboard" "my-board" {
                   "name": "Scope",
                   "value": {
                     "resourceIds": [
-                      "/subscriptions/c022430e-7e85-46f0-898b-57c4edf3acc5/resourcegroups/psr-demo/providers/microsoft.operationalinsights/workspaces/loganalytics-psrdemo"
+                      "${var.resource_id}"
                     ]
                   },
                   "isOptional": true
                 },
                 {
                   "name": "PartId",
-                  "value": "0b9074ee-332b-4702-946f-b6e67566a967",
+                  "value": "xxxx",
                   "isOptional": true
                 },
                 {
@@ -103,7 +103,7 @@ resource "azurerm_dashboard" "my-board" {
                 },
                 {
                   "name": "PartSubTitle",
-                  "value": "loganalytics-psrdemo",
+                  "value": "${local.diagnostic_name}",
                   "isOptional": true
                 },
                 {
@@ -170,14 +170,14 @@ resource "azurerm_dashboard" "my-board" {
                   "name": "Scope",
                   "value": {
                     "resourceIds": [
-                      "/subscriptions/c022430e-7e85-46f0-898b-57c4edf3acc5/resourcegroups/psr-demo/providers/microsoft.operationalinsights/workspaces/loganalytics-psrdemo"
+                      "${var.resource_id}"
                     ]
                   },
                   "isOptional": true
                 },
                 {
                   "name": "PartId",
-                  "value": "4e0bbcd9-d3c4-4ecc-8139-abcaf191df9c",
+                  "value": "xxxx",
                   "isOptional": true
                 },
                 {
@@ -220,7 +220,7 @@ resource "azurerm_dashboard" "my-board" {
                 },
                 {
                   "name": "PartSubTitle",
-                  "value": "loganalytics-psrdemo",
+                  "value": "${local.diagnostic_name}",
                   "isOptional": true
                 },
                 {
@@ -284,14 +284,14 @@ resource "azurerm_dashboard" "my-board" {
                   "name": "Scope",
                   "value": {
                     "resourceIds": [
-                      "/subscriptions/c022430e-7e85-46f0-898b-57c4edf3acc5/resourcegroups/psr-demo/providers/microsoft.operationalinsights/workspaces/loganalytics-psrdemo"
+                      "${var.resource_id}"
                     ]
                   },
                   "isOptional": true
                 },
                 {
                   "name": "PartId",
-                  "value": "0f176e7a-a655-4c05-8157-598d3b500627",
+                  "value": "xxxx",
                   "isOptional": true
                 },
                 {
@@ -334,7 +334,7 @@ resource "azurerm_dashboard" "my-board" {
                 },
                 {
                   "name": "PartSubTitle",
-                  "value": "loganalytics-psrdemo",
+                  "value": "${local.diagnostic_name}",
                   "isOptional": true
                 },
                 {
@@ -398,14 +398,14 @@ resource "azurerm_dashboard" "my-board" {
                   "name": "Scope",
                   "value": {
                     "resourceIds": [
-                      "/subscriptions/c022430e-7e85-46f0-898b-57c4edf3acc5/resourcegroups/psr-demo/providers/microsoft.operationalinsights/workspaces/loganalytics-psrdemo"
+                      "${var.resource_id}"
                     ]
                   },
                   "isOptional": true
                 },
                 {
                   "name": "PartId",
-                  "value": "50ff12ec-2152-4e69-ac54-212c52358864",
+                  "value": "xxxx",
                   "isOptional": true
                 },
                 {
@@ -447,7 +447,7 @@ resource "azurerm_dashboard" "my-board" {
                 },
                 {
                   "name": "PartSubTitle",
-                  "value": "loganalytics-psrdemo",
+                  "value": "${local.diagnostic_name}",
                   "isOptional": true
                 },
                 {
@@ -498,14 +498,14 @@ resource "azurerm_dashboard" "my-board" {
                   "name": "Scope",
                   "value": {
                     "resourceIds": [
-                      "/subscriptions/c022430e-7e85-46f0-898b-57c4edf3acc5/resourcegroups/psr-demo/providers/microsoft.operationalinsights/workspaces/loganalytics-psrdemo"
+                      "${var.resource_id}"
                     ]
                   },
                   "isOptional": true
                 },
                 {
                   "name": "PartId",
-                  "value": "5715a71d-fa2a-4b62-b754-ae7cd8e5f6ae",
+                  "value": "xxxx",
                   "isOptional": true
                 },
                 {
@@ -547,7 +547,7 @@ resource "azurerm_dashboard" "my-board" {
                 },
                 {
                   "name": "PartSubTitle",
-                  "value": "loganalytics-psrdemo",
+                  "value": "${local.diagnostic_name}",
                   "isOptional": true
                 },
                 {
@@ -600,14 +600,14 @@ resource "azurerm_dashboard" "my-board" {
                   "name": "Scope",
                   "value": {
                     "resourceIds": [
-                      "/subscriptions/c022430e-7e85-46f0-898b-57c4edf3acc5/resourcegroups/psr-demo/providers/microsoft.operationalinsights/workspaces/loganalytics-psrdemo"
+                      "${var.resource_id}"
                     ]
                   },
                   "isOptional": true
                 },
                 {
                   "name": "PartId",
-                  "value": "2aed15ab-90d8-482a-8126-921fea143409",
+                  "value": "xxxx",
                   "isOptional": true
                 },
                 {
@@ -649,7 +649,7 @@ resource "azurerm_dashboard" "my-board" {
                 },
                 {
                   "name": "PartSubTitle",
-                  "value": "loganalytics-psrdemo",
+                  "value": "${local.diagnostic_name}",
                   "isOptional": true
                 },
                 {
@@ -696,14 +696,14 @@ resource "azurerm_dashboard" "my-board" {
                   "name": "Scope",
                   "value": {
                     "resourceIds": [
-                      "/subscriptions/c022430e-7e85-46f0-898b-57c4edf3acc5/resourcegroups/psr-demo/providers/microsoft.operationalinsights/workspaces/loganalytics-psrdemo"
+                      "${var.resource_id}"
                     ]
                   },
                   "isOptional": true
                 },
                 {
                   "name": "PartId",
-                  "value": "31e9d39f-70b5-4f17-b2b8-31c1d11da36c",
+                  "value": "xxxx",
                   "isOptional": true
                 },
                 {
@@ -745,7 +745,7 @@ resource "azurerm_dashboard" "my-board" {
                 },
                 {
                   "name": "PartSubTitle",
-                  "value": "loganalytics-psrdemo",
+                  "value": "${local.diagnostic_name}",
                   "isOptional": true
                 },
                 {
@@ -802,14 +802,14 @@ resource "azurerm_dashboard" "my-board" {
                   "name": "Scope",
                   "value": {
                     "resourceIds": [
-                      "/subscriptions/c022430e-7e85-46f0-898b-57c4edf3acc5/resourcegroups/psr-demo/providers/microsoft.operationalinsights/workspaces/loganalytics-psrdemo"
+                      "${var.resource_id}"
                     ]
                   },
                   "isOptional": true
                 },
                 {
                   "name": "PartId",
-                  "value": "777f828d-6e40-4aac-8026-b7b203f97ca1",
+                  "value": "xxxx",
                   "isOptional": true
                 },
                 {
@@ -851,7 +851,7 @@ resource "azurerm_dashboard" "my-board" {
                 },
                 {
                   "name": "PartSubTitle",
-                  "value": "loganalytics-psrdemo",
+                  "value": "${local.diagnostic_name}",
                   "isOptional": true
                 },
                 {
@@ -921,14 +921,14 @@ resource "azurerm_dashboard" "my-board" {
                   "name": "Scope",
                   "value": {
                     "resourceIds": [
-                      "/subscriptions/c022430e-7e85-46f0-898b-57c4edf3acc5/resourcegroups/psr-demo/providers/microsoft.operationalinsights/workspaces/loganalytics-psrdemo"
+                      "${var.resource_id}"
                     ]
                   },
                   "isOptional": true
                 },
                 {
                   "name": "PartId",
-                  "value": "73f89f9a-2f0a-4429-92b6-9fb266abc8f3",
+                  "value": "xxxx",
                   "isOptional": true
                 },
                 {
@@ -971,7 +971,7 @@ resource "azurerm_dashboard" "my-board" {
                 },
                 {
                   "name": "PartSubTitle",
-                  "value": "loganalytics-psrdemo",
+                  "value": "${local.diagnostic_name}",
                   "isOptional": true
                 },
                 {
@@ -1049,15 +1049,15 @@ resource "azurerm_dashboard" "my-board" {
                 "value": "Past 24 hours"
               },
               "filteredPartIds": [
-                "StartboardPart-LogsDashboardPart-e6cc85c9-26f4-4ede-9068-0d5c9d8a5131",
-                "StartboardPart-LogsDashboardPart-e6cc85c9-26f4-4ede-9068-0d5c9d8a5133",
-                "StartboardPart-LogsDashboardPart-e6cc85c9-26f4-4ede-9068-0d5c9d8a5135",
-                "StartboardPart-LogsDashboardPart-e6cc85c9-26f4-4ede-9068-0d5c9d8a5137",
-                "StartboardPart-LogsDashboardPart-e6cc85c9-26f4-4ede-9068-0d5c9d8a5139",
-                "StartboardPart-LogsDashboardPart-e6cc85c9-26f4-4ede-9068-0d5c9d8a513b",
-                "StartboardPart-LogsDashboardPart-e6cc85c9-26f4-4ede-9068-0d5c9d8a513d",
-                "StartboardPart-LogsDashboardPart-e6cc85c9-26f4-4ede-9068-0d5c9d8a513f",
-                "StartboardPart-LogsDashboardPart-e6cc85c9-26f4-4ede-9068-0d5c9d8a5141"
+                "StartboardPart-LogsDashboardPart-xxxx",
+                "StartboardPart-LogsDashboardPart-xxxx",
+                "StartboardPart-LogsDashboardPart-xxxx",
+                "StartboardPart-LogsDashboardPart-xxxx",
+                "StartboardPart-LogsDashboardPart-xxxx",
+                "StartboardPart-LogsDashboardPart-xxxx",
+                "StartboardPart-LogsDashboardPart-xxxx",
+                "StartboardPart-LogsDashboardPart-xxxx",
+                "StartboardPart-LogsDashboardPart-xxxx"
               ]
             }
           }
